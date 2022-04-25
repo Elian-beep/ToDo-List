@@ -1,26 +1,31 @@
 import styled from 'styled-components';
 
 export const Content = styled.div`
-width: 100%;
-background: green;
-padding: 1em 0;
+    width: 100%;
+    padding: 1em 0;
 
-display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #1C1C1C;
 `;
 
-export const Title = styled.h2`
-    margin-left: 0.5em;
+export const Title = styled.h1`
+    margin-left: 1em;
+    font-size: 30pt;
+
+    @media (max-width: 600px) {
+        font-size: 20pt;
+        margin-left: 0.5em;
+    }
 `;
-
-
 
 export const AreaSearch = styled.div`
-    margin-right: 0.5em;
+    margin-right: 1em;
 
-    background: #2C3441;
-    height: 40px;
+    background: #C0C0C0;
+    height: 20px;
     border-radius: 50px;
     padding: 10px;
 
@@ -28,55 +33,51 @@ export const AreaSearch = styled.div`
         padding: 0 10px;
     }
 
-    &:hover > .icon-search{
-        background: #536179;
-    }
-
     & .icon-search:active{
         transform: rotate(360deg) scale(0.8) ;
     } 
 
     @media (max-width: 600px) {
+        margin-right: 0.5em;
 
         &:hover > input{
-            width: 100px;
+            width: 80px;
         }   
     }
 `;
 
 export const InputSearchTask = styled.input`
-border: none;
-outline: none;
-padding: 0;
-background: none;
-font-size: 1.1rem;
+    border: none;
+    outline: none;
+    padding: 0;
+    background: none;
+    font-size: 1rem;
 
-line-height: 40px;
-transition: 0.5s ease;
-color: #fff;
+    line-height: 20px;
+    transition: 0.5s ease;
+    color: #f1f1f1;
 
-@media (max-width: 600px) {
-    width: 0;
-    font-size: 0.75em;
-}
+    @media (max-width: 600px) {
+        width: 0;
+        font-size: 0.75em;
+    }
 `;
 
 export const BtnSearch = styled.a`
-color: #21DFCD;
-float: right;
-width: 40px;
-font-size: 1.3em;
-height: 40px;
-border-radius: 50px;
-background: #2f3640;
-display: flex;
-justify-content: center;
-align-items: center;
-transition: 0.4s;
-cursor: pointer;
-text-decoration: none;
+    color: #1C1C1C;
+    float: right;
+    width: 30px;
+    font-size: 1.3em;
+    height: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
 
-@media (max-width: 600px) {
-    font-size: 1em;
-}
+    @media (max-width: 600px) {
+        font-size: 1em;
+    }
 `;

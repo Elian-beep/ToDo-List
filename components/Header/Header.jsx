@@ -9,7 +9,7 @@ export default function Header() {
             <Title>Lista de Tarefas</Title>
 
             <AreaSearch>
-            <InputSearchTask type="text" placeholder='Pesquisar tarefa...'></InputSearchTask>
+            <InputSearchTask type="text" placeholder='Pesquisar...'></InputSearchTask>
             <BtnSearch> <BsSearch className='icon-search' /> </BtnSearch>
             </AreaSearch>
         </Content>

@@ -1,0 +1,4 @@
+paint-obscure : #C0C0C0
+paint-mid : #C0C0C0
+paint-midle: #D3D3D3
+paint-light: #f1f1f1
