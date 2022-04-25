@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
         <title>Shop List</title>
       </Head>
       <Header />
+
       <Component {...pageProps} />
     </>
   );

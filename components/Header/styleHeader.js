@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
+//-----------------CONTEUDO
 export const Content = styled.div`
     width: 100%;
+    height: 50px;
     padding: 1em 0;
 
     display: flex;
@@ -11,6 +13,7 @@ export const Content = styled.div`
     border-bottom: 1px solid #1C1C1C;
 `;
 
+//-----------------TITULO
 export const Title = styled.h1`
     margin-left: 1em;
     font-size: 30pt;
@@ -21,11 +24,12 @@ export const Title = styled.h1`
     }
 `;
 
+//-----------------AREA DE PESQUISA
 export const AreaSearch = styled.div`
     margin-right: 1em;
 
     background: #C0C0C0;
-    height: 20px;
+    height: 25px;
     border-radius: 50px;
     padding: 10px;
 
@@ -41,11 +45,12 @@ export const AreaSearch = styled.div`
         margin-right: 0.5em;
 
         &:hover > input{
-            width: 80px;
+            width: 95px;
         }   
     }
 `;
 
+//-----------------CAMPO DE PESQUISA
 export const InputSearchTask = styled.input`
     border: none;
     outline: none;
@@ -53,7 +58,7 @@ export const InputSearchTask = styled.input`
     background: none;
     font-size: 1rem;
 
-    line-height: 20px;
+    line-height: 25px;
     transition: 0.5s ease;
     color: #f1f1f1;
 
@@ -63,6 +68,7 @@ export const InputSearchTask = styled.input`
     }
 `;
 
+//-----------------BOTÃO DE PESQUISA
 export const BtnSearch = styled.a`
     color: #1C1C1C;
     float: right;
