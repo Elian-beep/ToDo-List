@@ -1,5 +1,6 @@
 import React from "react";
 import { AreaBtn, BtnNewBlockTasks, Container, Content, SubTitle, Title } from "./styleNoLists";
+import Link from "next/link";
 
 export default function NoLists() {
     return (
@@ -15,7 +16,9 @@ export default function NoLists() {
             </Content>
 
             <AreaBtn>
-                <BtnNewBlockTasks href="#">Criar Bloco de Tarefas</BtnNewBlockTasks>
+                <Link href="NewTask">
+                    <BtnNewBlockTasks>Criar Bloco de Tarefas</BtnNewBlockTasks>
+                </Link>
             </AreaBtn>
         </>
     );

@@ -17,6 +17,7 @@ export const Content = styled.div`
 export const Title = styled.h1`
     margin-left: 1em;
     font-size: 30pt;
+    cursor: pointer;
 
     @media (max-width: 600px) {
         font-size: 20pt;
