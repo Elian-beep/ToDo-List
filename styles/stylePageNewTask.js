@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 //-----------------CONTAINER
-export const Container = styled.div``;
+export const Container = styled.div`
+    height: calc(100vh - 120px);
+`;
 
 //-----------------AREA PARA POSICIONAR O TITULO
 export const AreaTitlePage = styled.div`
@@ -25,6 +27,10 @@ export const TitlePage = styled.h1`
 export const Content = styled.div`
     display: flex;
     justify-content: space-around;
+    background: #FFF;
+    margin: 0.5em;
+    border-radius: 10px;
+    padding: 0;
 
     @media (max-width: 600px) {
         flex-direction: column;

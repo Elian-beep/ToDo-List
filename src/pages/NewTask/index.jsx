@@ -1,4 +1,5 @@
 import React from "react";
+import BottomActions from "../../../components/BottomActions/BottomActions";
 import { AreaNewBlock, AreaTitlePage, Container, Content, InputTitleBlock, Title, TitlePage } from "../../../styles/stylePageNewTask";
 
 export default function NewTask() {
@@ -25,6 +26,8 @@ export default function NewTask() {
                 </AreaNewBlock>
 
             </Content>
+
+            <BottomActions />
         </Container>
     );
 }
