@@ -1,11 +1,29 @@
 import React from "react";
-import { Container, Content, Title } from "../../../styles/stylePageNewTask";
+import { AreaNewBlock, AreaTitlePage, Container, Content, InputTitleBlock, Title, TitlePage } from "../../../styles/stylePageNewTask";
 
 export default function NewTask() {
-    return(
+    return (
         <Container>
+            <AreaTitlePage>
+                <TitlePage>Criando novo bloco de tarefas</TitlePage>
+            </AreaTitlePage>
+
             <Content>
-                <Title>Criando novo bloco de tarefas</Title>
+
+                <AreaNewBlock>
+                    <Title>
+                        Título do Bloco
+                    </Title>
+
+                    <InputTitleBlock type="text" />
+                </AreaNewBlock>
+
+                <AreaNewBlock>
+                    <Title>
+                        Tarefas
+                    </Title>
+                </AreaNewBlock>
+
             </Content>
         </Container>
     );
