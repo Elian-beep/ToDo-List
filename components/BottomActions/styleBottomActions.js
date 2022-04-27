@@ -21,13 +21,31 @@ export const Content = styled.div`
 `;
 
 //-----------------BOTÃO DE AÇÃO
-export const BtnAction = styled.a`
+export const BtnActionCan = styled.a`
     color: #FFF;
     cursor: pointer;
     width: 100%;
     text-align: center;
 
     text-decoration: none;
+
+    border-right: 1px solid #C0C0C0;
+
+    &:hover{
+        color: #C0C0C0;
+    }
+`;
+
+//-----------------BOTÃO DE AÇÃO
+export const BtnActionSav = styled.a`
+    color: #FFF;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+
+    text-decoration: none;
+
+    border-left: 1px solid #C0C0C0;
 
     &:hover{
         color: #C0C0C0;

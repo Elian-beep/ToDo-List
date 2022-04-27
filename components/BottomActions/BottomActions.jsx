@@ -1,14 +1,14 @@
 import React from "react";
-import { BtnAction, Container, Content } from "./styleBottomActions";
+import { BtnActionCan, BtnActionSav, Container, Content } from "./styleBottomActions";
 
 export default function BottomActions() {
     return (
         <Container>
             <Content>
                 
-                <BtnAction href="/">CANCELAR</BtnAction>
+                <BtnActionCan href="/">CANCELAR</BtnActionCan>
 
-                <BtnAction>PRONTO</BtnAction>
+                <BtnActionSav>PRONTO</BtnActionSav>
 
             </Content>
         </Container>
