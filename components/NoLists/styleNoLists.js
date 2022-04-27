@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+//-----------------CONTEUDO
 export const Content = styled.div`
     display: flex;
     align-items: center;
@@ -8,6 +9,7 @@ export const Content = styled.div`
     height: calc(100vh - 200px);
 `;
 
+//-----------------TITULO
 export const Title = styled.h1`
     font-weight: 700;
     font-size: 40pt;
@@ -20,6 +22,7 @@ export const Title = styled.h1`
     }
 `;
 
+//-----------------SUBTITUTLO
 export const SubTitle = styled.h3`
     font-size: 20pt;
 
@@ -28,6 +31,7 @@ export const SubTitle = styled.h3`
     }
 `;
 
+//-----------------AREA PARA O BOTÃO
 export const AreaBtn = styled.div`
     display: flex;
     justify-content: center;
@@ -40,6 +44,7 @@ export const AreaBtn = styled.div`
     }
 `;
 
+//-----------------BOTÃO PARA CRIAR NOVA TAREFA
 export const BtnNewBlockTasks = styled.a`
     padding: 1em;
     font-size: 15pt;

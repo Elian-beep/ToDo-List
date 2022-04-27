@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Shop List</title>
+        <title>ToDo List</title>
       </Head>
       <Header />
 

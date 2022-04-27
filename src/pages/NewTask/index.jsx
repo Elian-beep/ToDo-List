@@ -1,8 +1,12 @@
 import React from "react";
+import { Container, Content, Title } from "../../../styles/stylePageNewTask";
 
 export default function NewTask() {
     return(
-        <div>
-        </div>
+        <Container>
+            <Content>
+                <Title>Criando novo bloco de tarefas</Title>
+            </Content>
+        </Container>
     );
 }
