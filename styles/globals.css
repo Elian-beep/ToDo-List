@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Noto+Sans:wght@400;700&family=Poppins:wght@300;500&family=Roboto:wght@300;400;700&display=swap');
 
-body{
+body {
     background: #f1f1f1;
     font-family: 'Lato', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #000;
 }
 
 * {

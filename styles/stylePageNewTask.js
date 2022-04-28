@@ -127,7 +127,7 @@ export const AreaGroupTask = styled.div`
 
 //-----------------AREA DA NOVA TASK
 export const AreaTask = styled.div`
-    flex: 1 1 150px;
+    flex: 1 1 200px;
 
     display: flex;
     justify-content: space-between;

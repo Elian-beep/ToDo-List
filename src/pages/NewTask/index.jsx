@@ -54,6 +54,10 @@ export default function NewTask() {
                         <BsTrash className="icon-trash"></BsTrash>
                     </BtnRemoveNewTask>
                 </AreaTask>
+
+                
+
+                
             </AreaGroupTask>
 
             <BottomActions />

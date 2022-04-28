@@ -2,10 +2,8 @@ import styled from "styled-components";
 
 //-----------------Container
 export const Container = styled.div`
-    position: absolute;
+    position: fixed;
     bottom: 0;
-
-    display: block;
 
     background: black;
     width: 100%;
