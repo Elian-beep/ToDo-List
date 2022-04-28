@@ -1,6 +1,7 @@
 import React from "react";
+import { BsPlus } from 'react-icons/bs';
 import BottomActions from "../../../components/BottomActions/BottomActions";
-import { AreaNewBlock, AreaTitlePage, Container, Content, InputTitleBlock, Title, TitlePage } from "../../../styles/stylePageNewTask";
+import { AreaNewBlock, AreaTitlePage, BtnNewTask, Container, Content, InputNameTask, InputTitleBlock, Title, TitlePage } from "../../../styles/stylePageNewTask";
 
 export default function NewTask() {
     return (
@@ -23,6 +24,8 @@ export default function NewTask() {
                     <Title>
                         Tarefas
                     </Title>
+                    <InputNameTask type="text" placeholder="Nome da nova tarefa" />
+                    <BtnNewTask>+</BtnNewTask>
                 </AreaNewBlock>
 
             </Content>

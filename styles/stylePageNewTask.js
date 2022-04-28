@@ -69,3 +69,45 @@ export const InputTitleBlock = styled.input`
         height: 3em;
     }
 `;
+
+//-----------------INPUT DA NOVA TAREFA NO BLOCO
+export const InputNameTask = styled.input`
+    margin-top: 1em;
+    width: 90%;
+    height: 2em;
+
+    border: none;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    background: none;
+    transition: 0.7s;
+    outline: none;
+
+
+    &:active{
+        height: 3em;
+    }
+`;
+
+//-----------------BOTÃO PARA CRIAR NOVA TASK
+export const BtnNewTask = styled.button`
+    width: 2em;
+    height: 2em;
+    border-radius: 50px;
+    border: none;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    background: black;
+    color: white;
+    font-size: 11pt;
+    cursor: pointer;
+
+    &:hover{
+        color: #C0C0C0;
+    }
+
+    @media (max-width: 600px) {
+        width: 1.7em;
+        height: 1.7em;
+    }
+`;
