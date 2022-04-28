@@ -70,6 +70,12 @@ export const InputTitleBlock = styled.input`
     }
 `;
 
+//-----------------AREA PARA CRIAR NOVA TASK
+export const AreaNewTask = styled.div`
+    display: flex;
+    flex-direction: row;
+`;
+
 //-----------------INPUT DA NOVA TAREFA NO BLOCO
 export const InputNameTask = styled.input`
     margin-top: 1em;
@@ -96,7 +102,6 @@ export const BtnNewTask = styled.button`
     border-radius: 50px;
     border: none;
     margin-left: 1em;
-    margin-bottom: 1em;
     background: black;
     color: white;
     font-size: 11pt;
