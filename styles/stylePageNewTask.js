@@ -74,6 +74,7 @@ export const InputTitleBlock = styled.input`
 export const AreaNewTask = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: baseline;
 `;
 
 //-----------------INPUT DA NOVA TAREFA NO BLOCO
@@ -97,8 +98,8 @@ export const InputNameTask = styled.input`
 
 //-----------------BOTÃO PARA CRIAR NOVA TASK
 export const BtnNewTask = styled.button`
-    width: 2em;
-    height: 2em;
+    width: 2.5em;
+    height: 2.5em;
     border-radius: 50px;
     border: none;
     margin-left: 1em;
@@ -112,7 +113,7 @@ export const BtnNewTask = styled.button`
     }
 
     @media (max-width: 600px) {
-        width: 1.7em;
-        height: 1.7em;
+        width: 2em;
+        height: 2em;
     }
 `;
