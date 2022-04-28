@@ -17,6 +17,7 @@ export const AreaTitlePage = styled.div`
 //-----------------TITULO DA PAGINA
 export const TitlePage = styled.h1`
     font-size: 25pt;
+    margin-bottom: 0.5em;
 
     @media (max-width: 600px) {
         font-size: 19pt;
@@ -115,5 +116,44 @@ export const BtnNewTask = styled.button`
     @media (max-width: 600px) {
         width: 2em;
         height: 2em;
+    }
+`;
+
+//-----------------AREA GERAL DAS TASKS CRIADAS
+export const AreaGroupTask = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+`;
+
+//-----------------AREA DA NOVA TASK
+export const AreaTask = styled.div`
+    flex: 1 1 150px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    background: #C0C0C0;
+    padding: 0.5em;
+    border-radius: 10px;
+    font-size: 11pt;
+`;
+
+//-----------------BTN EXCLUIR NOVA TASK
+export const BtnRemoveNewTask = styled.button`
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 2em;
+    height: 2em;
+    
+    .icon-trash{
+        width: 1.4em;
+        height: 1.4em;
+    }
+
+    &:hover{
+        color: red;
     }
 `;

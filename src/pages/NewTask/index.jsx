@@ -1,7 +1,7 @@
 import React from "react";
-import { BsPlus } from 'react-icons/bs';
+import { BsTrash } from 'react-icons/bs';
 import BottomActions from "../../../components/BottomActions/BottomActions";
-import { AreaNewBlock, AreaNewTask, AreaTitlePage, BtnNewTask, Container, Content, InputNameTask, InputTitleBlock, Title, TitlePage } from "../../../styles/stylePageNewTask";
+import { AreaGroupTask, AreaNewBlock, AreaNewTask, AreaTask, AreaTitlePage, BtnNewTask, BtnRemoveNewTask, Container, Content, InputNameTask, InputTitleBlock, Title, TitlePage } from "../../../styles/stylePageNewTask";
 
 export default function NewTask() {
     return (
@@ -29,10 +29,32 @@ export default function NewTask() {
                         <InputNameTask type="text" placeholder="Nome da nova tarefa" />
                         <BtnNewTask>+</BtnNewTask>
                     </AreaNewTask>
-
                 </AreaNewBlock>
 
             </Content>
+
+            <AreaGroupTask>
+                <AreaTask>
+                    React
+                    <BtnRemoveNewTask>
+                        <BsTrash className="icon-trash"></BsTrash>
+                    </BtnRemoveNewTask>
+                </AreaTask>
+
+                <AreaTask>
+                    Vue.js
+                    <BtnRemoveNewTask>
+                        <BsTrash className="icon-trash"></BsTrash>
+                    </BtnRemoveNewTask>
+                </AreaTask>
+
+                <AreaTask>
+                    Sistemas Operacionais
+                    <BtnRemoveNewTask>
+                        <BsTrash className="icon-trash"></BsTrash>
+                    </BtnRemoveNewTask>
+                </AreaTask>
+            </AreaGroupTask>
 
             <BottomActions />
         </Container>
